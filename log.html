@@ -1,0 +1,98 @@
+<html>
+    <head>
+    
+    </head>
+
+    <style>
+        body{
+            
+            position: absolute;
+            width: 100%;;
+            height: 600px;
+            
+            background-color: aqua;
+        }
+        
+        .log
+        {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 30%;
+            left: 25%;
+            background-color: black;
+        }
+        
+        #textbox
+        {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            height: 10%;
+            font-size: 30px;
+            color:white;
+        }
+        .inp
+        {
+        position: absolute;
+            width: 98%;
+            left: 1%;
+            height: 15%;
+        }
+        #t
+        {
+            top: 25%;
+            
+        }
+        #p
+        {
+            top: 45%;
+        }
+         #s
+        {
+            top: 70%;
+        }
+        #signup
+        {
+            
+            position: absolute;
+            top: 92%;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+           @media only screen and (max-width: 750px)
+        {
+             .log
+        {
+            position: absolute;
+            width: 98%;
+            height: 90%;
+            top: 10%;
+            left: 1%;
+            background-color: black;
+        }
+        
+            
+        }
+    </style>
+    <body>
+        
+        <section class = "log">
+            <form action="login.php" method="post" > 
+        <section id = "textbox">
+              Log in please  </section>
+     <input type="email"  name = "email" class = "inp" id = "t">
+        <input type="password" name ="password"  class = "inp" id  = "p">
+        
+            
+        <input type="submit" name="submit" class = "inp" id  = "s">
+         </form>
+            <a id = "signup" href = "signin.php"> Not registered? Sign up here!</a>
+        </section>
+        
+         
+    
+    </body>
+
+</html>
